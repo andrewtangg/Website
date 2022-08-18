@@ -1,0 +1,27 @@
+<button mat-button [matMenuTriggerFor]="belowMenu">Dropdown Button 1</button>
+  <mat-menu #belowMenu="matMenu" yPosition="below">
+    <button mat-menu-item>Button 1</button>
+    <button mat-menu-item>Button 2</button>
+    <button mat-menu-item>Button 3</button>
+  </mat-menu>
+
+<button mat-button [matMenuTriggerFor]="aboveMenu">Dropdown Button 2</button>
+  <mat-menu #aboveMenu="matMenu" yPosition="above">
+    <button mat-menu-item>Button 1</button>
+    <button mat-menu-item>Button 2</button>
+    <button mat-menu-item>Button 3</button>
+  </mat-menu>
+
+<button mat-button [matMenuTriggerFor]="beforeMenu">Dropdown Button 3</button>
+  <mat-menu #beforeMenu="matMenu" xPosition="before">
+    <button mat-menu-item>Button 1</button>
+    <button mat-menu-item>Button 2</button>
+    <button mat-menu-item>Button 3</button>
+  </mat-menu>
+
+<button mat-button [matMenuTriggerFor]="afterMenu">Dropdown Button 4</button>
+  <mat-menu #afterMenu="matMenu" xPosition="after">
+    <button mat-menu-item>Button 1</button>
+    <button mat-menu-item>Button 2</button>
+    <button mat-menu-item>Button 3</button>
+  </mat-menu>
